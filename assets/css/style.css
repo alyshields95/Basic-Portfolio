@@ -1,45 +1,109 @@
-.container {
-    width: 960px;
-    margin: 0 auto;
-    background-color: #ffffff;
-    }
-
-
-.logo {
-    float: left;
-    width: 20%;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    }
-
-.topnav {
-    float: left;
-    width: 80%;
-    background-color: #ffffff;
-    overflow: hidden;
+body {
+    background: pink;
+    margin: 0px;
+    padding: 0px;
     }
 
 header {
+    color: #4aaaa5;
     background-color: #ffffff;
-    width: 1050px;
-    } 
+    width: auto;
+    display: block;
+    }
 
-body {
+div {
+    display: block;
+}
+
+div.navigation {
+    width: 960px;
+    margin: auto;
+    }
+
+nav.box {
+    display: inline-flex;
+    justify-content: flex-end;
+    flex-flow: row nowrap;
+    align-items: center;
+    width: 900px;
+    margin: auto;
+    }
+
+header h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    display: inline-block;
+    padding: 15px;
+    }
+
+    h1 {
+        background-color: #4aaaa5;
+        color: #ffffff;
+        margin: 0 49% 0 0;
+        /* width: 300px; */
+    }
+
+nav.box {
+    display: inline-flex;
+    justify-content: flex-end;
+    flex-flow: row nowrap;
+    align-items: center;
+    width: 900px;
+    margin: auto;
+    }
+
+nav.box a {
+    position: relative;
+    left: 8%;
+    width: auto;
+    height: auto;
+    font-size: 16px;
+    padding: 0px 15px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    background: #333;
-    }
-  
-  /* Style the links inside the navigation bar */
-  .topnav a {
-    float: right;
-    color: #777777;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
     }
 
-  img.floatLeft {
-      float: left;
-      margin: 50px;
+    a:visited {
+        text-decoration: none;
     }
-  
+
+    a:link {
+        text-decoration: none;
+    }
+
+
+div.wrapper {
+    color: #777777;
+    background-color: #ffffff;
+    border-color: #dddddd;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin: auto;
+    width: 960px;
+    line-height: 1.2em;
+    padding-bottom: 40px;
+}
+
+h2 {
+    color: #4aaaa5;
+    padding: 5px 20px;
+    }
+
+h2.paddingTop {
+    padding-top: 20px;
+}
+
+hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+
+
+img.headShot {
+    float: left;
+    padding: 8px 20px 0px 20px;
+}
