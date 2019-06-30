@@ -37,11 +37,14 @@ nav.box a {
     font-size: 16px;
     padding: 0px 15px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    border-right: 1px solid #bbb;
     }
 
+    a:last-child {
+        border-right: none;
+      }
+
     a:visited {
-        color: #777777;
+        color:hotpink;
     }
 
     a:link {
@@ -51,6 +54,11 @@ nav.box a {
     a:hover {
         color: #4aaaa5;
     }
+    
+    a:active {
+        color:hotpink;
+    }
+
 
 header h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
