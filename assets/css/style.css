@@ -20,7 +20,7 @@ div.topnav {
     margin: auto;
     }
 
-nav.box {
+nav.logo {
     display: inline-flex;
     justify-content: flex-end;
     flex-flow: row nowrap;
@@ -29,7 +29,7 @@ nav.box {
     margin: auto;
     }
 
-nav.box a {
+nav.logo a {
     position: relative;
     left: 8%;
     width: auto;
